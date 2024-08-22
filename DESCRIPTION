@@ -1,10 +1,15 @@
 Package: spcausal
-Title: What the Package Does (One Line, Title Case)
+Title: Geo-spatial Causal Inference
 Version: 0.0.0.9000
 Authors@R: 
-    person("Wenbo", "Lv", , "lyu.geosocial@gmail.com", role = c("aut", "cre"),
+    person(given = "Wenbo", family = "Lv",
+           email = "lyu.geosocial@gmail.com", 
+           role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0009-0002-6003-3800"))
-Description: What the package does (one paragraph).
+Description: An integrated geospatial causal inference framework, encompassing but 
+             not limited to spatial difference-in-differences, spatial regression 
+             discontinuity design, convergent cross mapping, and geographical 
+             convergent cross mapping, among others.
 License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
